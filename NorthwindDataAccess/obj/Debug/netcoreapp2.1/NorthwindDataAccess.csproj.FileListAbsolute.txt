@@ -1,0 +1,6 @@
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\bin\Debug\netcoreapp2.1\NorthwindDataAccess.deps.json
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\bin\Debug\netcoreapp2.1\NorthwindDataAccess.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\obj\Debug\netcoreapp2.1\NorthwindDataAccess.csprojAssemblyReference.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\obj\Debug\netcoreapp2.1\NorthwindDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\obj\Debug\netcoreapp2.1\NorthwindDataAccess.AssemblyInfoInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindDataAccess\obj\Debug\netcoreapp2.1\NorthwindDataAccess.AssemblyInfo.cs

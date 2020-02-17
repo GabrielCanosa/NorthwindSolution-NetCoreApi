@@ -1,0 +1,12 @@
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\bin\Debug\netcoreapp2.1\Northwind.Repositories.deps.json
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\bin\Debug\netcoreapp2.1\Northwind.Repositories.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\bin\Debug\netcoreapp2.1\Northwind.Repositories.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\bin\Debug\netcoreapp2.1\Northwind.Models.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\bin\Debug\netcoreapp2.1\Northwind.Models.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.csprojAssemblyReference.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.AssemblyInfoInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.AssemblyInfo.cs
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.csproj.CopyComplete
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindRepositories\obj\Debug\netcoreapp2.1\Northwind.Repositories.pdb

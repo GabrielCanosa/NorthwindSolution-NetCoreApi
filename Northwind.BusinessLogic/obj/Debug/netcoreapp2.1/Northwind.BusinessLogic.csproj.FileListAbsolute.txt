@@ -1,0 +1,16 @@
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.BusinessLogic.deps.json
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.BusinessLogic.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.BusinessLogic.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.Models.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.Repositories.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.UnitOfWork.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.UnitOfWork.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.Models.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\bin\Debug\netcoreapp2.1\Northwind.Repositories.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.AssemblyInfo.cs
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.csproj.CopyComplete
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.dll
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\Northwind.BusinessLogic\obj\Debug\netcoreapp2.1\Northwind.BusinessLogic.pdb
