@@ -6,3 +6,4 @@ C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindModels\obj\De
 C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindModels\obj\Debug\netcoreapp2.1\Northwind.Models.AssemblyInfo.cs
 C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindModels\obj\Debug\netcoreapp2.1\Northwind.Models.dll
 C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindModels\obj\Debug\netcoreapp2.1\Northwind.Models.pdb
+C:\Users\gabriel.canosa.sp\source\repos\NorthwindSolution\NorthwindModels\obj\Debug\netcoreapp2.1\Northwind.Models.csprojAssemblyReference.cache

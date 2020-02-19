@@ -34,6 +34,9 @@ namespace NorthwindWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<ISupplierLogic, SupplierLogic>();
+            services.AddTransient<IOrderLogic, OrderLogic>();
+            services.AddTransient<ICustomerLogic, CustomerLogic>();
+            services.AddTransient<ITokenLogic, TokenLogic>();
             services.AddSingleton<IUnitOfWork>(option => new NorthwindUnitOfWork(Configuration.GetConnectionString("Nortwind")));
 
             var tokenProvider = new JwtProvider("issuer", "audience", "northwind");

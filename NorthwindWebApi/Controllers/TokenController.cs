@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Northwind.BusinessLogic.Interfaces;
 using Northwind.Models;
 using Northwind.UnitOfWork;
 using NorthwindWebApi.Authentication;
@@ -14,17 +15,17 @@ namespace NorthwindWebApi.Controllers
     public class TokenController : Controller
     {
         private ITokenProvider _tokenProvider;
-        private IUnitOfWork _unitOfWork;
-        public TokenController(ITokenProvider tokenProvider, IUnitOfWork unitOfWork)
+        private ITokenLogic _tokenLogic;
+        public TokenController(ITokenProvider tokenProvider, ITokenLogic tokenLogic)
         {
             _tokenProvider = tokenProvider;
-            _unitOfWork = unitOfWork;
+            _tokenLogic = tokenLogic;
         }
 
         [HttpPost]
         public JsonWebTokens Post([FromBody] User userLogin)
         {
-            var user = _unitOfWork.User.ValidateUser(userLogin.Email, userLogin.Password);
+            var user = _tokenLogic.ValidateUser(userLogin.Email, userLogin.Password);
 
             if (user == null)
                 throw new UnauthorizedAccessException();

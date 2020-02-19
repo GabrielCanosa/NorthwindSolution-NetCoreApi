@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Northwind.BusinessLogic.Interfaces;
 using Northwind.Models;
 using Northwind.UnitOfWork;
 using System;
@@ -14,24 +15,30 @@ namespace NorthwindWebApi.Controllers
     [Authorize]
     public class CustomerController : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public CustomerController(IUnitOfWork unitOfWork)
+        private readonly ICustomerLogic _customerLogic;
+        public CustomerController(ICustomerLogic customerLogic)
         {
-            _unitOfWork = unitOfWork;
+            _customerLogic = customerLogic;
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok(_customerLogic.GetList());
         }
 
         [HttpGet]
         [Route("{id:int}")]
         public IActionResult GetById(int id)
         {
-            return Ok(_unitOfWork.Customer.GetById(id));
+            return Ok(_customerLogic.GetById(id));
         }
 
         [HttpGet]
         [Route("GetPaginatedCustomer/{page:int}/{rows:int}")]
         public IActionResult GetPaginatedCustomer(int page, int rows)
         {
-            return Ok(_unitOfWork.Customer.CustomerPagedList(page, rows));
+            return Ok(_customerLogic.CustomerPagedList(page, rows));
         }
 
         [HttpPost]
@@ -39,13 +46,13 @@ namespace NorthwindWebApi.Controllers
         {
             if (!ModelState.IsValid) return BadRequest();
 
-            return Ok(_unitOfWork.Customer.Insert(customer));
+            return Ok(_customerLogic.Insert(customer));
         }
 
         [HttpPut]
         public IActionResult Update([FromBody] Customer customer)
         {
-            if (!ModelState.IsValid && _unitOfWork.Customer.Update(customer))
+            if (!ModelState.IsValid && _customerLogic.Update(customer))
             {
                 return Ok(new { Message = "The customer was updated" });
             }
@@ -58,7 +65,7 @@ namespace NorthwindWebApi.Controllers
         {
             if (customer.Id > 0)
             {
-                return Ok(_unitOfWork.Customer.Delete(customer));
+                return Ok(_customerLogic.Delete(customer));
             }
 
             return BadRequest();

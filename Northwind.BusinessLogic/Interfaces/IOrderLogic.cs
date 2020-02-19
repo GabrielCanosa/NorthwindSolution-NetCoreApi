@@ -10,5 +10,6 @@ namespace Northwind.BusinessLogic.Interfaces
         IEnumerable<OrderItem> getPaginatedOrder(int page, int rows);
         OrderItem getOrderById(int orderId);
         bool Delete(OrderItem order);
+        int GetProductId(int orderId);
     }
 }
